@@ -3,7 +3,7 @@ pipeline {
     docker 'python:3.6.1'
   }
   stages {
-    stage('Install dependencies') {
+    stage('Install Dependencies') {
       steps {
         sh 'pip install -r requirements.txt'
       }
